@@ -1,0 +1,44 @@
+body {
+    font-size: 2em;
+    color: lightgray;
+    background-color: black;
+}
+/*---------------------------------------------------------------------------------------------------------------------*/
+/* NAVIGATION BAR START */
+.navBar {
+    padding-top: 15px;
+}
+.navBar button {
+    color: white;
+    background-color: transparent;
+}
+.nav-tabs {
+    border-bottom: none;
+}
+.nav-item a{
+    color: white;
+}
+.nav-item a:hover {
+    font-size: 1.1em;
+    border-bottom: none;
+    text-decoration: underline;
+}
+/* NAVIGATION BAR END */
+/*---------------------------------------------------------------------------------------------------------------------*/
+/* JUMBOTRON START */
+#centerBody {
+    clear: both;
+}
+.carousel-item img {
+    max-height: 400px;
+    width: auto;
+}
+/* JUMBOTRON END */
+/*---------------------------------------------------------------------------------------------------------------------*/
+.col-lg-2, .col-md-4, .col-sm-6, .col-xs-12 {
+    text-align: center;
+    padding: 10px;
+}
+#channelTiles {
+    clear: both;
+}
